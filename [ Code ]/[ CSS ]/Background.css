@@ -1,0 +1,50 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+
+    height: 100%;
+    min-height: 100%;
+
+    //scrollbar-width: none;
+}
+
+body
+{
+    background-color: black;
+    margin: 0;
+}
+
+#background_container
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    z-index: -10;
+}
+
+#background_image
+{
+    position: relative;
+    display: block;
+    background-position: center;
+}
+
+#shadow_container
+{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+
+    z-index: -9;
+}
+
+#shadow_image
+{
+    position: relative;
+    display: block;
+    background-position: center;
+
+    opacity: 0.5;
+}
